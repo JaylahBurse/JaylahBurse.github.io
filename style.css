@@ -1,12 +1,13 @@
 body {
-    background: #D4AF37;
-    color: #D4AF37;
+    background: orange;
+    color: orange;
     padding: 10px;
     font-family: arial;
 }
 #all-contents {
-  max-width: 100px;
+  max-width: 800px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 /* navigation menu */
@@ -19,7 +20,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: #D4AF37;
+    color: orange;
     flex: 1;
     margin: 0;
 }
@@ -32,7 +33,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: orange;
 }
 
 /* main container area beneath menu */
@@ -56,31 +57,31 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 50px #000000 ridge;
+    border: 80px #000000 ridge;
     padding: 10px;
 }
 h2, h3 {
     margin: 0px
 }
 h2{
-    color:black;
+    color:rgb(255, 255, 255);
     font-family:cursive;
     animation: 1s glow ease-in-out infinite alternate;
 }
 @-webkit-keyframes glow {
-    from{text-shadow: 0 0 10px white, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+    from{text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
 }
 to {
-  text-shadow: 0 0 20px #D4AF37, 0 0 30px#D4AF37, 0 0 40px #D4AF37, 0 0 50px #D4AF37, 0 0 60px #D4AF37, 0 0 70px #D4AF37, 0 0 80px #D4AF37;
+  text-shadow: 0 0 20px orange, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px orange, 0 0 80px orange;
 }}
 img{
-    border-style:double;
+    border-style:groove;
     border-color: rgb(255, 255, 255);
     border-width: 15px;
 }
  /* portfolio styles */
  .content h1 {
-   color: #D4AF37;
+   color: orange;
 }
 
 #portfolio {
@@ -89,19 +90,21 @@ img{
 }
 
 #portfolio li {
-    background: #D4AF37;
+    background: rgb(0, 0, 0);
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+    border-color: orange;
+    border-style: groove;
 }
 
 #portfolio li:hover {
-    background: #D4AF37;
+    background: orange;
 }
 
 #portfolio a {
-    text-decoration: none;
-    color: #000000;
+    text-decoration: cursive;
+    
 }
 /* responsive web design */
     @media screen and (min-width: 120px) and (max-width: 1080px) {
@@ -126,6 +129,7 @@ h3 {
 #all-contents {
     height: 100ch;
     margin: none;
+    color:orange;
 }
   
 a {
@@ -138,7 +142,7 @@ font-size: 42px;
     align-items: center;
 }
   
-    .sidebar-img {
+.sidebar-img {
      width: 100%;
  }
   
@@ -148,8 +152,7 @@ li {
 }
   
 .content {
-    align-content: center;
-    justify-content: center;
+    align-content: right;
+    justify-content: left;
     }
 }
-  
