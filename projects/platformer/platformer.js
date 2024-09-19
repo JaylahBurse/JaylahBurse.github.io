@@ -50,16 +50,15 @@ createPlatform(300, 180, 50, 1);
 createPlatform(400, 270, 50, 1);
 createPlatform(400, 300, 5, 200);
 createPlatform(250, 300, 5, 200);
-createPlatform(340,300, 60, 0.01);
-createPlatform(250, 400, 60, 0.01);
-createPlatform(350, 500, 60, 0.01);
-createPlatform(120, 699, 20, 0.02);
-createPlatform(200, 650, 20, 0.02);
-createPlatform(300, 600, 20, 0.02);   
+createPlatform(340,300, 60, 0.2);
+createPlatform(250, 400, 60, 0.2);
+createPlatform(350, 500, 60, 0.2);
+createPlatform(120, 699, 20, 0.2);
+createPlatform(200, 650, 20, 0.2);
+createPlatform(300, 600, 20, 0.2);   
 createPlatform(300, 70, 10, 10);
 createPlatform(80, 700, 10, 2000);
-
-createPlatform()
+createPlatform(700, 400, 50 ,5)
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
@@ -76,7 +75,7 @@ createPlatform()
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-    createCannon('left', 700, 100, 0.5, 50, 30);
+    createCannon('left', 700, 101, 0.5, 50, 30);
     createCannon('top', 1300, 100, 0.5, 50, 30);
     createCannon('right', 15, 100, 0.5, 50, 30);
     createCannon('bottom', 500, 1300, 20, 20)

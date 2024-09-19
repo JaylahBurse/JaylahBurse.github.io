@@ -4,10 +4,10 @@ body {
 
 canvas {
   background-color: rgb(255, 98, 0);
-  background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3JV1WkNiTiHyCfRlWBaM4H_B8NDk7pSszNQ&s";
   margin: 20px;
 }
 
 img {
   display: none;
+  
 }
